@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 500 16px 'Montserrat';
+
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #F5F5F5;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    height: 990px;
+}
+
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 710px;
+    height: 990px;
+    left: 0px;
+    top: 0px;
+    background: #E2F0FF;
+}
+
+.img {
+    background-image: url(.//assets/1.svg);
+    background-repeat: no-repeat;
+    width: 524px;
+    height: 391px;
+    background-size: contain;
+}
+
+.SignIn h1 {
+    width: 400px;
+    height: 68px;
+    font-family: 600 26px 'Poppins';
+    text-align: center;
+    color: #292731;
+    margin-top: 56px;
+}
+
+.SignIn p {
+    width: 386px;
+    height: 54px;
+    font-family: 400 16px 'Poppins';
+    text-align: center;
+    color: #455360;
+    margin-top: 23px;
+}
+
+
+
+
+
+.SignInInp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 710px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+    margin-left: 100px;
+    margin-top: 130px;
+    margin-bottom: 165px;
+}
+
+.imgHand {
+    background-image: url(.//assets/waving-hand.svg);
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+
+}
+
+.SignInInp h1 {
+    width: 239px;
+    height: 45px;
+    font-family: 600 30px 'Poppins';
+    color: #292731;
+    line-height: 45px;
+
+}
+
+.SignInInp p {
+    width: 292px;
+    height: 27px;
+    font-family: 400 16px 'Poppins';
+    margin-top: 23px;
+    color: #292731;
+
+}
+
+.SignInInp div p {
+    width: 199px;
+    height: 24px;
+    font-family: 500 16px 'Poppins';
+    line-height: 24px;
+    color: #455360;
+}
+
+input {
+    width: 440px;
+    height: 48px;
+    background: #ECF2F7;
+    border-radius: 4px;
+}
+
+button {
+    width: 440px;
+    height: 54px;
+    background: #4C70FF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration-line: 30px;
+    font-family: 500 20px 'Poppins';
+}
+
+.connection {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: 500 16px 'Poppins';
+    line-height: 24px;
+    color: #292731;
+
+}
