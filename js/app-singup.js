@@ -18,6 +18,7 @@ class SingUp {
         if (!/^[\w\+\!\.\@\#\$\%\&\*\(\)\/\\]{8,}$/gm.test(pwd)) throw new Error('Пароль не соответствует требованиям безопасности');
         if (pwdConf !== pwd) throw new Error('Пароль не подтвержден');
     }
+
     doRegistration() {
         const btn = document.querySelector('button');
         const inp1 = document.querySelector('.inp-mail');
