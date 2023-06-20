@@ -13,9 +13,9 @@ class SingIn {
     }
 
     isValid(mail, pwd) {
-        if (mail === '' || pwd === '') throw new Error('Пустая строка')
-        if (!/^[a-z0-9_\.-]+@[a-z]+\.[a-z]{2,3}$/gm.test(mail) && !/^\+[1-9]{12}$/gm.test(mail)) throw new Error('некорректный ввод почты / номера телефона');
-        if (!/^[\w\+\!\.\@\#\$\%\&\*\(\)\/\\]{8,}$/gm.test(pwd)) throw new Error('Пароль не соответствует требованиям безопасности');
+        if (mail === '' || pwd === '') throw new Error('empty string')
+        if (!/^[a-z0-9_\.-]+@[a-z]+\.[a-z]{2,3}$/gm.test(mail) && !/^\+[1-9]{12}$/gm.test(mail)) throw new Error('incorrect entry of mail / phone number');
+        if (!/^[\w\+\!\.\@\#\$\%\&\*\(\)\/\\]{8,}$/gm.test(pwd)) throw new Error('password does not meet security requirements');
     }
 
     doAuthorization() {
@@ -29,7 +29,7 @@ class SingIn {
                 let mail = inp1.value;
                 let pwd = inp2.value;
                 this.isValid(mail, pwd)
-                alert('Вы успешно авторизованы в системе');
+                alert('You are successfully authorized in the system');
                 inp1.value = '';
                 inp2.value = '';
             } catch (error) {
